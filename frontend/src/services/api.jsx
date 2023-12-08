@@ -1,7 +1,7 @@
 // src/services/api.js
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:5151/api"; // Use the correct backend base URL
+const API_BASE_URL = "http://35.183.206.131:5151/api"; // Use the correct backend base URL
 
 const login = (email, password) => {
   return axios.post(`${API_BASE_URL}/auth/login`, { email, password });
