@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5151/api';
+const API_BASE_URL = 'http://35.183.206.131:5151/api';
 
 const fetchAllUsers = async () => {
     try {
