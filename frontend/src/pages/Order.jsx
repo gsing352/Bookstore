@@ -4,7 +4,7 @@ import { AuthContext } from "../context/AuthContext";
 import "./orderstyle.css";
 
 const Order = () => {
-  const API_BASE_URL = "http://localhost:5151/api";
+  const API_BASE_URL = "http://35.183.206.131:5151/api";
   const [orders, setOrders] = useState([]);
   const { authData } = useContext(AuthContext);
 
