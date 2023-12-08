@@ -32,6 +32,10 @@ app.listen(process.env.PORT || 5151, () => {
   console.log("Backend working");
 });
 
+app.get('/',(req,res) =>{
+  console.log("Hello");
+}
+
 
 app.post('/test', (req, res) => {
     console.log(req.body);  // Log the request body
