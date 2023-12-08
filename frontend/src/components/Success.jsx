@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import axios from 'axios';
 import './successstyle.css'
-const API_BASE_URL = "http://localhost:5151/api";
+const API_BASE_URL = "http://35.183.206.131:5151/api";
 
 const Success = () => {
 
