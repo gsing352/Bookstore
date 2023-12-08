@@ -34,7 +34,7 @@ app.listen(process.env.PORT || 5151, () => {
 
 app.get('/',(req,res) =>{
   console.log("Hello");
-}
+});
 
 
 app.post('/test', (req, res) => {
