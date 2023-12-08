@@ -28,8 +28,8 @@ console.log("Received checkout request", req.body);
             }),
 
             mode: 'payment',
-            success_url: `http://localhost:5173/payment/success`,
-            cancel_url: `http://localhost:5173/payment/canceled`,
+            success_url: `http://35.183.206.131:5173/payment/success`,
+            cancel_url: `http://35.183.206.131:5173/payment/canceled`,
 
         }
         );
