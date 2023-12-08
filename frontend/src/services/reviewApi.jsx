@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5151/api/reviews'; // Update with your actual API base URL
+const API_BASE_URL = 'http://35.183.206.131:5151/api/reviews'; // Update with your actual API base URL
 
 // Function to fetch reviews for a specific booklist
 export const fetchReviewsByBooklistId = async (booklistId) => {
