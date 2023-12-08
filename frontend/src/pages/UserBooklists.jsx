@@ -7,7 +7,7 @@ import {
 import { AuthContext } from "../context/AuthContext";
 import EditBooklistForm from "./EditBooklistForm";
 import { useNavigate } from "react-router-dom";
-import "./UserBooklists.css"
+import "./UserBookLists.css"
 
 const UserBooklists = () => {
   const [booklists, setBooklists] = useState([]);
