@@ -1,7 +1,7 @@
 // src/api/api.jsx
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5151/api/booklists'; // Replace with your actual server URL
+const API_BASE_URL = 'http://35.183.206.131:5151/api/booklists'; // Replace with your actual server URL
 
 export const getAllBooklists = async () => {
   try {
