@@ -34,7 +34,7 @@ const CartPage = () => {
 
   const handlePayment = async () => {
     try {
-      const response = await axios.post("http://localhost:5555/api/checkout", {
+      const response = await axios.post("http://35.183.206.131:5555/api/checkout", {
         cartItems,
       });
       window.location.href = response.data.url;
